@@ -1,4 +1,4 @@
-### Certified Kubernetes Developer & Certified Kubernetes Administrator
+### Certified Kubernetes Application Developer & Certified Kubernetes Administrator
 * repository contains slides for quick reference
 
 ### reference
