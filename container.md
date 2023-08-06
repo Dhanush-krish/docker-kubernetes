@@ -1,6 +1,4 @@
-### docker
-
-#### container
+### container
 <img width="622" alt="image" src="https://github.com/Dhanush-krish/docker-kubernetes/assets/58057080/ea1f3d1a-939b-4807-b9ee-ed9bc97c5ad7">
 
 A **hypervisor** is software that creates and runs virtual machines (VMs), allows one host computer to support multiple guest VMs by virtually sharing its resources, such as memory and processing.
