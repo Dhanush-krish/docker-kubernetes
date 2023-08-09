@@ -18,12 +18,16 @@
 *  **ENV**       -> sets environment variables in container environment
 
 #### launch time Instructions
-*  ***EXPOSE**    -> port at which app inside the container runs
+*  **EXPOSE**    -> port at which app inside the container runs
 *  **CMD**        -> used to start application commands in fg
 *  **ENTRYPOINT** ->  used to execute application initialization scripts
 *  **ENTRYPOINT executes first then CMD**
 
-
+### Multi stage docker file
+* creates image that contains application, runtime 
+* splits the docker file into multiple images
+* only the last image is published to registry
+* It reduces the image size by eliminating unnecessary dependencies need for build and test step.
 
 ### Docker file - best Practices
 * file name should start with capital letter **Dockerfile**
