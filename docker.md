@@ -10,18 +10,18 @@
 
 ### Docker File commands
 #### build time Instructions
-**FROM**      -> pulls base imange from repository
-**RUN**       -> executes commands
-**WORKDIR**   -> created directory and executes subsequent commands in that directory
-**COPY**      -> src is build context dest is WORKDIR
-**ADD**       -> src can be remote also extracts tar files
-**ENV**       -> sets environment variables in container environment
+*  **FROM**      -> pulls base imange from repository
+*  **RUN**       -> executes commands
+*  **WORKDIR**   -> created directory and executes subsequent commands in that directory
+*  **COPY**      -> src is build context dest is WORKDIR
+*  **ADD**       -> src can be remote also extracts tar files
+*  **ENV**       -> sets environment variables in container environment
 
 #### launch time Instructions
-***EXPOSE**    -> port at which app inside the container runs
-**CMD**        -> used to start application commands in fg
-**ENTRYPOINT** ->  used to execute application initialization scripts
-**ENTRYPOINT executes first then CMD**
+*  ***EXPOSE**    -> port at which app inside the container runs
+*  **CMD**        -> used to start application commands in fg
+*  **ENTRYPOINT** ->  used to execute application initialization scripts
+*  **ENTRYPOINT executes first then CMD**
 
 
 
