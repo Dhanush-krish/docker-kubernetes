@@ -29,6 +29,18 @@
 * only the last image is published to registry
 * It reduces the image size by eliminating unnecessary dependencies need for build and test step.
 
+### Docker Networking
+* types of networks
+  * bridge - default network
+  * host - host network - **port mapping is not required** 
+  * none - no interface - cannot talk to other hosts - **blackhole network**
+* tools -> Portainer, netshoot
+
+### Docker volume
+* 
+
+
+
 ### Docker file - best Practices
 * file name should start with capital letter **Dockerfile**
 * Commands in dockerfile should be in uppercase
