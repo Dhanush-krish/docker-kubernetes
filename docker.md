@@ -36,8 +36,11 @@
   * none - no interface - cannot talk to other hosts - **blackhole network**
 * tools -> Portainer, netshoot
 
-### Docker volume
-* 
+### Docker volumes
+* types of volumes
+  *  volume - default
+  *  bind mount - mount existing files/dirs/socket
+  *  tmpfs  - sharing host RAM with cotainer 
 
 
 
