@@ -2,9 +2,9 @@
 
 ### Services
 * port types
-  -> Port => service port
-  -> TargetPort => pod's container port 
-  -> NodePort => port exposed in Node
+  * Port => service port
+  * TargetPort => pod's container port
+  * NodePort => port exposed in Node
 * Types
   * Nodeport
     -> port is opened in all the nodes in the cluster
