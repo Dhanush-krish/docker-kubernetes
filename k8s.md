@@ -12,5 +12,7 @@
     * port range **30000 - 32767**
     * Not a ideal way but useful in dev testing
   * LoadBalancer
+    * creates a load balacer in cloud automatically
   * External IP
+    * anually attach loadbalancer ip to services
   * Ingress     
